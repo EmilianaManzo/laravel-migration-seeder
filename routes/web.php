@@ -17,5 +17,7 @@ Route::get('/',[PageController::class, 'index'])->name('home');
 
 Route::get('/treni', [PageController::class, 'paginaTreni'])->name('treni');
 
+Route::get('/train-details{id}', [PageController::class, 'details'])->name('dettaglio');
+
 
 

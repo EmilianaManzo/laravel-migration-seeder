@@ -22,4 +22,10 @@ class PageController extends Controller
 
         return view('trains', compact('trains'));
     }
+
+    public function details($id){
+        $train = Train::find($id);
+
+        return view('train-details', compact('train'));
+    }
 }

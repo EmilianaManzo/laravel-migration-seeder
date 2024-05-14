@@ -26,7 +26,7 @@
                 <td>{{$train->arrival_station}}</td>
                 <td>{{$train->departure_time}}</td>
                 <td>{{$train->train_code}}</td>
-                <td><a href="#" class="btn btn-primary ">Go</a></td>
+                <td><a href="{{route('dettaglio', ['id' => $train->id])}}" class="btn btn-primary ">Go</a></td>
 
 
             </tr>
@@ -42,4 +42,8 @@
 </div>
 
 
+@endsection
+
+@section('title')
+Treni
 @endsection
