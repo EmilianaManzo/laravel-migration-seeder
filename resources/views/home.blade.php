@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="container">
+<div class="container text-center py-5 mb-5">
     <div class="card-body">
         <h5 class="card-title">Ciao User</h5>
         <p class="card-text">Cerca il treno più adatto alle tue esigenze</p>

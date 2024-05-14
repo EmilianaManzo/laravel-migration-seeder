@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="container">
+<div class="container py-5 ">
     <div class="row">
         <table class="table table-dark table-striped table-hover">
             <thead>
