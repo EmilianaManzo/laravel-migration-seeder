@@ -19,7 +19,7 @@ class TrainsTableSeeder extends Seeder
         $new_train->departure_station = 'Napoli Garibaldi';
         $new_train->arrival_station = 'Roma Termini';
         $new_train->departure_time = 102000;
-        $new_train->departure_time = 112000;
+        $new_train->arrival_time = 112000;
         $new_train->train_code = '7685848F';
         $new_train->number_carriage = 8;
         $new_train->seat_prm = 20;
@@ -28,4 +28,6 @@ class TrainsTableSeeder extends Seeder
         // dump($new_train);
 
     }
+
+
 }
