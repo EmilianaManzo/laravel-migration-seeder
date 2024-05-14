@@ -21,7 +21,7 @@ return new class extends Migration
             $table->string('train_code', 50);
             $table->tinyInteger('number_carriage')->unsigned();
             $table->boolean('is_inTime')->default(true);
-            $table->boolean('is_deleted');
+            $table->boolean('is_deleted')->default(false);
             $table->timestamps();
         });
     }

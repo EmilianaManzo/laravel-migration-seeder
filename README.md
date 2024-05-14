@@ -1,7 +1,7 @@
-# Title : 
+# Title : Trains
 ______
 
-### Consegna :
+### Consegna 13/05/2024:
 Creiamo una tabella trains e relativa Migration
 Ogni treno dovrà avere:
 Azienda
@@ -14,3 +14,12 @@ Numero Carrozze
 In orario
 Cancellato
 Oltre alla migration di creazione della tabella aggiungente una migration di update con rollback funzionante
+
+
+### Consegna 14/05/2024:
+Oggi continuate sulla stessa repo di ieri (laravel-migration-seeder) popolando la tabella con il seeder.
+Realizzate quindi un seeder con il Faker per l’inserimento di quanti treni volete.
+Stampate poi in una view l’elenco dei treni
+BONUS
+Paginate i risultati
+Create un nuovo seeder che inserisca nel db i dati presenti nel file csv che vi allego.

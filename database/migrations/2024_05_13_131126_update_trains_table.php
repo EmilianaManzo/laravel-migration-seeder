@@ -12,7 +12,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::table('trains', function (Blueprint $table) {
-            $table->tinyInteger('seat_prm')->nullable()->after('number_carriage');
+        $table->tinyInteger('seat_prm')->nullable()->after('number_carriage');
         });
     }
 
